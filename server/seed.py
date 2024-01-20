@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 from random import choice as rc
 
@@ -47,4 +46,3 @@ with app.app_context():
 
     db.session.add_all(animals)
     db.session.commit()
-
